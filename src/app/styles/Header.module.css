@@ -1,11 +1,11 @@
-/* styles/Header.module.css */
-
 .header {
-  width: 100%;
-  padding: 1rem 2rem;
+  /* width: 'fit'; */
+  /* padding: 1rem 1rem; */
   background-color: white;
   border-bottom: 2px solid #e5e7eb;
+  border: 2px solid red;
 }
+
 
 .nav {
   display: flex;
