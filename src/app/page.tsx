@@ -26,7 +26,7 @@ import { ThemeProvider } from './providers/theme-provider';
 
 const Home = () => (
   <ThemeProvider>
-    <div className="bg-background text-primary">
+    <div>
       <Header />
       <Hero />
       <About />
