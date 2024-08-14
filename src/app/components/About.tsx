@@ -11,7 +11,7 @@ const About = () => {
             <h2 className={styles.sectionTitle}>02. About Me</h2>
             <p className={styles.greeting}>Hello,</p>
             <p className={styles.description}>
-              I'm Sahil Malviya, an adaptable professional with a background in
+              I am Sahil Malviya, an adaptable professional with a background in
               generative AI, poised to transition into software engineering.
               Proficient in teamwork, payment gateways, mobile app development,
               subscription systems, and many more skills. Skilled in both
@@ -44,11 +44,11 @@ const About = () => {
             </a>
           </div>
           <div className={styles.aboutImage}>
-            <img
+            {/* <img
               src={profileImage}
               alt="Sahil Malviya"
               className={styles.profileImage}
-            />
+            /> */}
           </div>
         </div>
       </div>
