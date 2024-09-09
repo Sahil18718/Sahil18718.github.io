@@ -14,15 +14,17 @@
 
 
 import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import GitHubActivities from './components/GitHubActivities';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+
 import { ThemeProvider } from './providers/theme-provider';
+import Header from './components/header';
+import Hero from './components/hero';
+import About from './components/about';
+import Projects from './components/projects';
+import Skills from './components/skills';
+import GitHubActivities from './components/githubActivities';
+import Contact from './components/contact';
+import Footer from './components/footer';
+
 
 const Home = () => (
   <ThemeProvider>
