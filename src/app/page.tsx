@@ -14,20 +14,20 @@
 
 import React from 'react';
 
-import About from './components/about';
+import AboutSection from './components/about';
 import Contact from './components/contact';
 import Footer from './components/footer';
 import GitHubActivities from './components/githubActivities';
 import Header from './components/header';
-import Hero from './components/hero';
+import HeroSection from './components/hero';
 import Projects from './components/projects';
 import Skills from './components/skills';
 
 const Home = () => (
   <div>
     <Header />
-    <Hero />
-    <About />
+    <HeroSection />
+    <AboutSection />
     <Projects />
     <Skills />
     <GitHubActivities />
