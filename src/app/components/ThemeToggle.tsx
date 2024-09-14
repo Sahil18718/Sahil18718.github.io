@@ -1,7 +1,6 @@
-"use client"
+'use client';
 import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
-
 
 const ThemeToggle = () => {
   const { theme, setTheme } = useTheme();
@@ -11,7 +10,9 @@ const ThemeToggle = () => {
     setMounted(true);
   }, []);
 
-  if (!mounted) return null;
+  if (!mounted) {
+    return null;
+  }
 
   return (
     <button
