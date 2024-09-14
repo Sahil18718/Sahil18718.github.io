@@ -14,11 +14,11 @@ const Header: React.FC = () => {
         </a>
 
         {/* Menu Toggle for small devices */}
-        {/* <div id="menuToggle" className="space-y-2 cursor-pointer">
+        <div id="menuToggle" className="space-y-2 cursor-pointer">
           <span id="first_span" className="block w-8 h-0.5 bg-gray-800"></span>
           <span id="second_span" className="block w-8 h-0.5 bg-gray-800"></span>
           <span id="third_span" className="block w-8 h-0.5 bg-gray-800"></span>
-        </div> */}
+        </div>
 
         {/* Navigation Links */}
         <div id="navigation_box" className="hidden md:flex space-x-8">
