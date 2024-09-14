@@ -24,6 +24,7 @@ import Projects from './components/projects';
 import Skills from './components/skills';
 import { ThemeProvider } from './providers/theme-provider';
 
+
 const Home = () => (
   <ThemeProvider>
     <div>
