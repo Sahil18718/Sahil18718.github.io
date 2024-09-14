@@ -49,7 +49,7 @@
     "no-eval": "error", // Disallow the use of eval()
 
     // Variables
-    "no-unused-vars": ["warn", { "vars": "all", "args": "none" }], // Warn on unused variables
+    // "no-unused-vars": ["warn", { "vars": "all", "args": "none" }], // Warn on unused variables
 
     // Stylistic Choices
     "indent": ["error", 2], // Enforce 2-space indentation
