@@ -22,22 +22,18 @@ import Header from './components/header';
 import Hero from './components/hero';
 import Projects from './components/projects';
 import Skills from './components/skills';
-import { ThemeProvider } from './providers/theme-provider';
-
 
 const Home = () => (
-  <ThemeProvider>
-    <div>
-      <Header />
-      <Hero />
-      <About />
-      <Projects />
-      <Skills />
-      <GitHubActivities />
-      <Contact />
-      <Footer />
-    </div>
-  </ThemeProvider>
+  <div>
+    <Header />
+    <Hero />
+    <About />
+    <Projects />
+    <Skills />
+    <GitHubActivities />
+    <Contact />
+    <Footer />
+  </div>
 );
 
 export default Home;
