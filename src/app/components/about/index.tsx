@@ -1,6 +1,7 @@
 import Image from 'next/image';
 
-import profilePic from '../../../lib/img/profile.jpg';
+import { data } from './aboutData'; // Adjust the path as necessary
+
 const AboutSection = () => {
   return (
     <section id="about" className="py-12 bg-pink-50">
@@ -10,14 +11,7 @@ const AboutSection = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="space-y-4">
-            <p>
-              Hello, <br />I m Sahil Malviya, an adaptable professional with a
-              background in generative AI, poised to transition into software
-              Proficient in teamwork, payment gateways, mobile app development,
-              subscription systems, and many more skills. Skilled in both
-              backend and frontend development, with a proven track record of
-              innovation.
-            </p>
+            <p>{data.description}</p>
             <p>
               For more details on my skills and projects, please see below
               sections.
@@ -26,19 +20,19 @@ const AboutSection = () => {
             <div className="flex justify-between items-center space-x-4">
               <div>
                 <span className="block text-2xl font-bold text-pink-500">
-                  1500+
+                  {data.stats.hoursOfCoding}
                 </span>
                 <span className="block text-gray-600">Hours of coding</span>
               </div>
               <div>
                 <span className="block text-2xl font-bold text-pink-500">
-                  500+
+                  {data.stats.dsaProblems}
                 </span>
                 <span className="block text-gray-600">DSA Problems</span>
               </div>
               <div>
                 <span className="block text-2xl font-bold text-pink-500">
-                  12+
+                  {data.stats.projects}
                 </span>
                 <span className="block text-gray-600">Projects</span>
               </div>
@@ -47,13 +41,13 @@ const AboutSection = () => {
               Download CV <span className="ml-2">↓</span>
             </button>
           </div>
-          <div className="relative w-3/4 h-96 md:h-96">
+          <div className="relative w-full h-96 md:h-auto">
             <Image
-              src={profilePic}
+              src="/assets/img/profile.jpg"
               alt="Sahil Malviya"
               layout="fill"
               objectFit="contain"
-              className="rounded-lg border-2 shadow-lg"
+              className="rounded-lg shadow-lg"
             />
           </div>
         </div>
