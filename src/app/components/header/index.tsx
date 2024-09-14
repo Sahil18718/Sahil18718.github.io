@@ -1,6 +1,4 @@
-import React from "react";
-
-import styles from "../styles/Header.module.css";
+import React from 'react';
 
 const Header = () => <p>&copy; 2024 SAHIL MALVIYA. header.</p>;
 

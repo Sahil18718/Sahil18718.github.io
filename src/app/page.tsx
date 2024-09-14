@@ -9,21 +9,20 @@
 //             />
 
 // export default function Home() {
-  
-// }
 
+// }
 
 import React from 'react';
 
-import { ThemeProvider } from './providers/theme-provider';
-import Header from './components/header';
-import Hero from './components/hero';
 import About from './components/about';
-import Projects from './components/projects';
-import Skills from './components/skills';
-import GitHubActivities from './components/githubActivities';
 import Contact from './components/contact';
 import Footer from './components/footer';
+import GitHubActivities from './components/githubActivities';
+import Header from './components/header';
+import Hero from './components/hero';
+import Projects from './components/projects';
+import Skills from './components/skills';
+import { ThemeProvider } from './providers/theme-provider';
 
 
 const Home = () => (

@@ -1,18 +1,20 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import { ReactNode } from "react";
-import { ThemeProvider } from "./providers/theme-provider"; // Correct import
+import { Inter } from 'next/font/google';
+import { ReactNode } from 'react';
 
-const inter = Inter({ subsets: ["latin"] });
+import { ThemeProvider } from './providers/theme-provider'; // Correct import
+
+import type { Metadata } from 'next';
+
+const inter = Inter({ subsets: ['latin'] });
 
 const user = {
-  title: "Sahil Malviya",
-  description: "Sahil Malviya Portfolio",
+  title: 'Sahil Malviya',
+  description: 'Sahil Malviya Portfolio'
 };
 
 export const metadata: Metadata = {
   title: user.title,
-  description: user.description,
+  description: user.description
 };
 
 interface RootLayoutProps {
@@ -24,9 +26,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <html lang="en" suppressHydrationWarning>
       <head />
       <body className={inter.className}>
-        <ThemeProvider>
-          {children}
-        </ThemeProvider>
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   );

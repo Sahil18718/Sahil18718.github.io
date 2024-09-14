@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const GitHubActivities = () => <h2>GitHub Activities</h2>;
 
