@@ -1,4 +1,58 @@
+// Load Header Section
+fetch('../src/header.html')
+    .then((response) => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.text();
+    })
+    .then((data) => {
+        document.getElementById('header').innerHTML = data;
+        console.log('Header loaded successfully!');
+    })
+    .catch((error) => {
+        console.error('Error loading header:', error);
+    });
 
+// Load main about Section
+fetch('./src/about.html')
+    .then((response) => response.text())
+    .then((data) => {
+        document.getElementById('about').innerHTML = data;
+    })
+    .catch((error) => {
+        console.error('Error loading About section:', error);
+    });
+
+// Load main project Section
+fetch('./src/projects.html')
+    .then((response) => response.text())
+    .then((data) => {
+        document.getElementById('projects').innerHTML = data;
+    })
+    .catch((error) => {
+        console.error('Error loading Projects section:', error);
+    });
+
+// Load Skills Section
+fetch('./src/skills.html')
+    .then((response) => response.text())
+    .then((data) => {
+        document.getElementById('skills').innerHTML = data;
+    })
+    .catch((error) => {
+        console.error('Error loading Skills section:', error);
+    });
+
+// Load Contact Section
+fetch('./src/contact.html')
+    .then((response) => response.text())
+    .then((data) => {
+        document.getElementById('contact').innerHTML = data;
+    })
+    .catch((error) => {
+        console.error('Error loading Contact section:', error);
+    });
 
 /*==================== CHANGE BACKGROUND HEADER ====================*///
 function scrollHeader() {
@@ -54,8 +108,10 @@ document.getElementById("resume-link-2").onclick = () => {
 
 
 //! ================= Fixture =================
-    // window.addEventListener('load',()=>{
-    //     // window.scrollTo(0, 0);
-    //     window.location.href = '#home'
-    // })
+// window.addEventListener('load',()=>{
+//     // window.scrollTo(0, 0);
+//     window.location.href = '#home'
+// })
 //! ================= SCROLL  =================
+
+
