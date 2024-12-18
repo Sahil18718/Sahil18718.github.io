@@ -8,7 +8,6 @@ fetch('../src/header.html')
     })
     .then((data) => {
         document.getElementById('header').innerHTML = data;
-        console.log('Header loaded successfully!');
     })
     .catch((error) => {
         console.error('Error loading header:', error);
