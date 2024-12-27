@@ -1,11 +1,15 @@
 import React from "react";
+import { contactData } from "@/data";
+
 
 const Contact = () => {
+  const { title, intro, contactInfo, footer } = contactData;
+
   return (
     <section id="contact" data-aos="fade-up">
       {/* Section Title */}
       <div className="section_title">
-        05. <span>Contact</span>
+        {title.split(".")[0]}. <span>{title.split(". ")[1]}</span>
       </div>
 
       {/* Contact Layout */}
@@ -16,66 +20,27 @@ const Contact = () => {
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
         >
-          <span>Get in Touch</span>
-          <p>
-            I'm looking for new opportunities, my inbox is always open. Whether
-            you have a question or just want to say hi, I’ll be so happy to
-            connect with you!
-          </p>
-          <a
-            href="mailto:sm.sahilmalviya@gmail.com"
-            id="contact-email"
-            className="btn"
-          >
+          <span>{intro.heading}</span>
+          <p>{intro.message}</p>
+          <a href={`mailto:${intro.email}`} id="contact-email" className="btn">
             Say Hello
           </a>
         </div>
 
         {/* Contact Info Container */}
         <div className="contact-info-container" data-aos="fade-zoom-in">
-          {/* Call Me */}
-          <a
-            href="tel:+917987183876"
-            className="contact-info-card"
-            data-aos="fade-right"
-          >
-            <img src="/icon/phone-call.svg" alt="Phone Icon" />
-            <span>Call Me</span>
-            <span>+91 7987183876</span>
-          </a>
-
-          {/* Mail Me */}
-          <a
-            href="mailto:sm.sahilmalviya@gmail.com"
-            className="contact-info-card"
-            data-aos="fade-right"
-          >
-            <img src="/icon/mail.svg" alt="Mail Icon" />
-            <span>Mail Me</span>
-            <span>sm.sahilmalviya@gmail.com</span>
-          </a>
-
-          {/* GitHub */}
-          <a
-            href="https://github.com/Sahil18718"
-            className="contact-info-card"
-            data-aos="fade-left"
-          >
-            <img src="/icon/github.svg" alt="GitHub Icon" />
-            <span>GitHub</span>
-            <span>Sahil18718</span>
-          </a>
-
-          {/* LinkedIn */}
-          <a
-            href="https://www.linkedin.com/in/sahilmalviya18718/"
-            className="contact-info-card"
-            data-aos="fade-left"
-          >
-            <img src="/icon/linkedin.svg" alt="LinkedIn Icon" />
-            <span>Ping Me</span>
-            <span>Sahil Malviya</span>
-          </a>
+          {contactInfo.map((info, index) => (
+            <a
+              key={index}
+              href={info.link}
+              className="contact-info-card"
+              data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
+            >
+              <img src={info.icon} alt={`${info.type} Icon`} />
+              <span>{info.type}</span>
+              <span>{info.value}</span>
+            </a>
+          ))}
         </div>
       </div>
 
@@ -84,52 +49,27 @@ const Contact = () => {
         {/* Mobile Footer Icons */}
         <div className="mobile_footer_icons">
           <div>
-            <a
-              target="_blank"
-              href="https://github.com/Sahil18718"
-              rel="noopener noreferrer"
-            >
-              <img src="/icon/github.svg" alt="GitHub Icon" />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/Sahilmalviya18718/"
-              rel="noopener noreferrer"
-            >
-              <img src="/icon/linkedin.svg" alt="LinkedIn Icon" />
-            </a>
-            <a
-              target="_blank"
-              href="tel:+917987183876"
-              rel="noopener noreferrer"
-            >
-              <img src="/icon/phone-call.svg" alt="Phone Icon" />
-            </a>
-            <a
-              target="_blank"
-              href="https://twitter.com/AnshitaGup4530"
-              rel="noopener noreferrer"
-            >
-              <img src="/icon/twitter.svg" alt="Twitter Icon" />
-            </a>
-            <a
-              target="_blank"
-              href="mailto:sm.sahilmalviya@gmail.com"
-              rel="noopener noreferrer"
-            >
-              <img src="/icon/mail.svg" alt="Mail Icon" />
-            </a>
+            {footer.icons.map((icon, index) => (
+              <a
+                key={index}
+                target="_blank"
+                href={icon.link}
+                rel="noopener noreferrer"
+              >
+                <img src={icon.icon} alt="Footer Icon" />
+              </a>
+            ))}
           </div>
         </div>
         {/* Footer Text */}
         <p>
-          designed by{" "}
+          {footer.text.split(" ")[0]}{" "}
           <a
-            href="https://github.com/Sahil18718"
+            href={footer.icons[0].link}
             target="_blank"
             rel="noopener noreferrer"
           >
-            Sahil Malviya
+            {footer.text.split(" ")[2]}
           </a>
         </p>
       </div>
