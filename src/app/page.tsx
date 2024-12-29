@@ -34,25 +34,16 @@ export default function Home() {
       </Head>
       <LeftSection />
       <RightSection />
+      <Header />
 
-      <div>
-        <main>
-        <Header />
+      <div >
+
+
         <HomeSection />
         <About />
-        <Skills/>
-        <Projects/>
+        <Skills />
+        <Projects />
         <Contact />
-
-        {/* <main className="main_pannel" id="main_section">
-          <HomeSection />
-          <div id="about"></div>
-          <div id="projects"></div>
-          <div id="skills"></div>
-          <GithubStats />
-
-        </main> */}
-        </main>
 
         {/* Scroll to Top Button */}
         <a href="#" className="scrollup" id="scroll-up">

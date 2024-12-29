@@ -53,7 +53,7 @@ const About = () => {
         <div className="about_right" data-aos="zoom-in-left">
           <div className="about_img_container home-img">
             <img
-              src={profileImage.src}
+              src="https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
               alt={profileImage.alt}
               className="home-img"
             />

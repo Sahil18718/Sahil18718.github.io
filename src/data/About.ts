@@ -1,3 +1,4 @@
+import ProfilePhoto from '../assets/img/profile.jpg'
 export const aboutData = {
     sectionTitle: "02. About Me",
     intro: {
@@ -19,7 +20,7 @@ export const aboutData = {
         buttonText: "Download CV",
     },
     profileImage: {
-        src: "../assets/img/profile.jpg",
+        src: ProfilePhoto,
         alt: "Sahil Malviya",
     },
 };
