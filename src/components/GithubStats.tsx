@@ -1,9 +1,12 @@
 import React from "react";
 
 const GitHubStats = () => {
+  const title = "04. GitHub Activities"
   return (
-    <section className="portfolio section githubstates border-2" id="githubstates" data-aos="fade-up">
-      <h2 className="section__title">GitHub Activities</h2>
+    <section className="githubstates" id="githubstates" data-aos="fade-up">
+       <div className="section_title">
+        {title.split(".")[0]}. <span>{title.split(". ")[1]}</span>
+      </div>
       <div
         id="carouselExampleIndicators"
         className="carousel slide github_carousel_container carousel-fade"
@@ -62,10 +65,10 @@ const GitHubStats = () => {
         src="http://ghchart.rshah.org/Sahil18718"
         alt="Sahil18718's GitHub chart"
       />
-      <img
+      {/* <img
         src="[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Sahil18718)](https://github.com/Sahil18718/github-readme-stats)"
         alt="WakaTime Stats"
-      />
+      /> */}
     </section>
   );
 };

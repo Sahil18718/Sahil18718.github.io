@@ -1,3 +1,6 @@
+import shoplixFirst from "../../assets/img/shoplix/shop1.png"
+import shoplixSecond from "../../assets/img/shoplix/shp2.png"
+import shoplixThird from "../../assets/img/shoplix/shp3.png"
 export const projects = [
     {
         title: "Shoplliex",
@@ -12,7 +15,7 @@ export const projects = [
             "Express",
             "MongoDB",
         ],
-        images: ["/shoplix/shop1.png", "/shoplix/shp2.png", "/shoplix/shp3.png"],
+        images: [shoplixFirst,shoplixSecond,shoplixThird],
         github: "https://github.com/Sahil18718/NXMproject",
         live: "https://subtle-florentine-6d190f.netlify.app/",
     },
@@ -30,7 +33,7 @@ export const projects = [
             "Express",
             "MongoDB",
         ],
-        images: ["/Dentique/den1.png", "/Dentique/Den2.png", "/Dentique/Den3.png"],
+        images: ["../../assets/img/Dentique/den1.png", "../../assets/img/Dentique/Den2.png", "../../assets/img/Dentique/Den3.png"],
         github: "https://github.com/Sahil18718/greasy-sofa-244",
         live: "https://649021df72e88046e26e0220--stalwart-fairy-c0e628.netlify.app/",
     },
@@ -49,9 +52,9 @@ export const projects = [
             "MongoDB",
         ],
         images: [
-            "/Shoping Zone/s1.png",
-            "/Shoping Zone/s2.png",
-            "/Shoping Zone/s3.png",
+            "../../assets/img/Shoping Zone/s1.png",
+            "../../assets/img/Shoping Zone/s2.png",
+            "../../assets/img/Shoping Zone/s3.png",
         ],
         github: "https://github.com/Sahil18718/Unit3project-group",
         live: "https://groupprojectunit3.netlify.app/",
@@ -62,7 +65,7 @@ export const projects = [
             "In just 3 days, I've developed a straightforward e-commerce website that allows users to browse and purchase products online. This user-friendly platform offers essential shopping features, making it easy for customers to find and buy products.",
         type: "Individual project",
         techStack: ["HTML5", "CSS3", "JavaScript"],
-        images: ["/Burberry/B1.png", "/Burberry/B2.png", "/Burberry/B3.png"],
+        images: ["../../assets/img/Burberry/B1.png", "../../assets/img/Burberry/B2.png", "../../assets/img/Burberry/B3.png"],
         github: "https://github.com/Sahil18718/tired-rail-4343",
         live: "https://cosmic-meringue-964590.netlify.app/",
     },

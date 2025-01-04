@@ -1,4 +1,4 @@
-import ProfilePhoto from '../assets/img/profile.jpg'
+import ProfilePhoto from '../../assets/img/profile.jpg'
 export const aboutData = {
     sectionTitle: "02. About Me",
     intro: {

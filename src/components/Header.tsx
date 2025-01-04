@@ -1,4 +1,6 @@
+import Image from "next/image";
 import React from "react";
+import image from "../../assets/img/logo/S-removebg-preview.png"
 
 const Header = () => {
   return (
@@ -6,7 +8,12 @@ const Header = () => {
       <div className="nav_container">
         {/* Logo */}
         <a href="/" className="nav_logo">
-          <img src="/logo/S.png" alt="Logo" />
+          <Image
+            src={image}
+            width={500}
+            alt={`logo Image`}
+          />
+          {/* <img src="/logo/S.png" alt="Logo" /> */}
         </a>
 
         {/* Menu toggle for small devices */}

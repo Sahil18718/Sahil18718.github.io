@@ -1,3 +1,4 @@
+import '../../assets/img/icon/github.svg'
 export const contactData = {
     title: "05. Contact",
     intro: {
@@ -10,25 +11,25 @@ export const contactData = {
         {
             type: "Call Me",
             value: "+91 7987183876",
-            icon: "/icon/phone-call.svg",
+            icon: "../../assets/img/icon/phone-call.svg",
             link: "tel:+917987183876",
         },
         {
             type: "Mail Me",
             value: "sm.sahilmalviya@gmail.com",
-            icon: "/icon/mail.svg",
+            icon: '../../assets/img/icon/mail.svg',
             link: "mailto:sm.sahilmalviya@gmail.com",
         },
         {
             type: "GitHub",
             value: "Sahil18718",
-            icon: "/icon/github.svg",
+            icon: '../../assets/img/icon/github.svg',
             link: "https://github.com/Sahil18718",
         },
         {
             type: "Ping Me",
             value: "Sahil Malviya",
-            icon: "/icon/linkedin.svg",
+            icon: "../../assets/img/icon/linkedin.svg",
             link: "https://www.linkedin.com/in/sahilmalviya18718/",
         },
     ],
@@ -39,19 +40,19 @@ export const contactData = {
                 link: "https://github.com/Sahil18718",
             },
             {
-                icon: "/icon/linkedin.svg",
+                icon: "../../assets/img/icon/linkedin.svg",
                 link: "https://www.linkedin.com/in/Sahilmalviya18718/",
             },
             {
-                icon: "/icon/phone-call.svg",
+                icon: "../../assets/img/icon/phone-call.svg",
                 link: "tel:+917987183876",
             },
             {
-                icon: "/icon/twitter.svg",
+                icon: "../../assets/img/icon/twitter.svg",
                 link: "https://twitter.com/AnshitaGup4530",
             },
             {
-                icon: "/icon/mail.svg",
+                icon: "../../assets/img/icon/mail.svg",
                 link: "mailto:sm.sahilmalviya@gmail.com",
             },
         ],

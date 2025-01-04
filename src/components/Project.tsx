@@ -1,6 +1,7 @@
 import { projects } from "@/data";
+import Image from "next/image";
 import React from "react";
-
+import shoplixFirst from "../../assets/img/shoplix/shop1.png"
 
 const Projects = () => {
   return (
@@ -27,15 +28,20 @@ const Projects = () => {
               <div className="carousel-inner">
                 {project.images.map((image, imgIndex) => (
                   <div
-                    className={`carousel-item ${
-                      imgIndex === 0 ? "active" : ""
-                    }`}
+                    className={`carousel-item ${imgIndex === 0 ? "active" : ""
+                      }`}
                     key={imgIndex}
                   >
-                    <img
+                    {/* <img
                       src={image}
                       className="d-block w-100"
                       alt={`${project.title} Image`}
+                    /> */}
+                    <Image
+                      width={740}
+                      src={shoplixFirst}
+                      alt={`${project.title} Image`}
+                      className="d-block w-100"
                     />
                   </div>
                 ))}

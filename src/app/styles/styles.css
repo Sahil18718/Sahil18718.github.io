@@ -132,6 +132,7 @@ img {
 .section__title,
 .section__subtitle {
     text-align: center;
+    font-size: x-large;
 }
 
 /*!==================== LAYOUT ====================*/

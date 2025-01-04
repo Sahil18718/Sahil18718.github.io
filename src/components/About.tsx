@@ -1,5 +1,6 @@
 import React from "react";
 import { aboutData } from "@/data/About";
+import Image from "next/image";
 
 
 const About = () => {
@@ -52,10 +53,11 @@ const About = () => {
         {/* Right Section */}
         <div className="about_right" data-aos="zoom-in-left">
           <div className="about_img_container home-img">
-            <img
-              src="https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            <Image
+              src={profileImage.src}
+              width={500}
+              height={500}
               alt={profileImage.alt}
-              className="home-img"
             />
           </div>
         </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import { contactData } from "@/data";
+import Image from "next/image";
 
 
 const Contact = () => {
@@ -36,7 +37,13 @@ const Contact = () => {
               className="contact-info-card"
               data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
             >
-              <img src={info.icon} alt={`${info.type} Icon`} />
+              <Image
+                src={info.icon}
+                width={500}
+                height={500}
+                alt={`${info.type} Icon`}
+              />
+              {/* <img src={info.icon} alt={`${info.type} Icon`} /> */}
               <span>{info.type}</span>
               <span>{info.value}</span>
             </a>
