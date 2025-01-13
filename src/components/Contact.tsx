@@ -37,13 +37,13 @@ const Contact = () => {
               className="contact-info-card"
               data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
             >
-              <Image
+              {/* <Image
                 src={info.icon}
                 width={500}
                 height={500}
                 alt={`${info.type} Icon`}
-              />
-              {/* <img src={info.icon} alt={`${info.type} Icon`} /> */}
+              /> */}
+              <img src={info.icon} alt={`${info.type} Icon`} />
               <span>{info.type}</span>
               <span>{info.value}</span>
             </a>

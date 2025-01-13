@@ -1,4 +1,3 @@
-import '../../assets/img/icon/github.svg'
 export const contactData = {
     title: "05. Contact",
     intro: {
@@ -11,51 +10,47 @@ export const contactData = {
         {
             type: "Call Me",
             value: "+91 7987183876",
-            icon: "../../assets/img/icon/phone-call.svg",
+            icon: "https://cdn-icons-png.flaticon.com/512/159/159832.png",
             link: "tel:+917987183876",
         },
         {
             type: "Mail Me",
             value: "sm.sahilmalviya@gmail.com",
-            icon: '../../assets/img/icon/mail.svg',
+            icon: "https://cdn-icons-png.flaticon.com/512/732/732200.png",
             link: "mailto:sm.sahilmalviya@gmail.com",
         },
         {
             type: "GitHub",
             value: "Sahil18718",
-            icon: '../../assets/img/icon/github.svg',
+            icon: "https://cdn-icons-png.flaticon.com/512/733/733553.png",
             link: "https://github.com/Sahil18718",
         },
         {
             type: "Ping Me",
             value: "Sahil Malviya",
-            icon: "../../assets/img/icon/linkedin.svg",
+            icon: "https://cdn-icons-png.flaticon.com/512/145/145807.png",
             link: "https://www.linkedin.com/in/sahilmalviya18718/",
         },
     ],
     footer: {
         icons: [
             {
-                icon: "/icon/github.svg",
+                icon: "https://cdn-icons-png.flaticon.com/512/733/733553.png",
                 link: "https://github.com/Sahil18718",
             },
             {
-                icon: "../../assets/img/icon/linkedin.svg",
+                icon: "https://cdn-icons-png.flaticon.com/512/145/145807.png",
                 link: "https://www.linkedin.com/in/Sahilmalviya18718/",
             },
             {
-                icon: "../../assets/img/icon/phone-call.svg",
+                icon: "https://cdn-icons-png.flaticon.com/512/159/159832.png",
                 link: "tel:+917987183876",
             },
             {
-                icon: "../../assets/img/icon/twitter.svg",
-                link: "https://twitter.com/AnshitaGup4530",
-            },
-            {
-                icon: "../../assets/img/icon/mail.svg",
+                icon: "https://cdn-icons-png.flaticon.com/512/732/732200.png",
                 link: "mailto:sm.sahilmalviya@gmail.com",
             },
-        ],
+        ],        
         text: "designed by Sahil Malviya",
     },
 };
