@@ -23,11 +23,11 @@ const Skills = () => {
                 data-aos-anchor-placement="top-bottom"
                 key={index}
               >
-                {/* <img
+                <img
                   src={skill.icon}
                   className="skills-card-img"
                   alt={skill.name}
-                /> */}
+                />
                 <span className="skills-card-name">{skill.name}</span>
               </div>
             ))}
@@ -45,11 +45,11 @@ const Skills = () => {
                 data-aos-anchor-placement="top-bottom"
                 key={index}
               >
-                {/* <img
+                <img
                   src={tool.icon}
                   className="skills-card-img"
                   alt={tool.name}
-                /> */}
+                />
                 <span className="skills-card-name">{tool.name}</span>
               </div>
             ))}

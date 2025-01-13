@@ -3,7 +3,7 @@
 
 /*!==================== VARIABLES CSS ====================*/
 :root {
-    --header-height: 5rem;
+    --header-height: 4.2rem;
    
     --first-color: #FF55BB;
     --first-color-alt: hsl(166, 100%, 40%);
@@ -66,7 +66,7 @@ html {
 }
 
 body {
-    /* margin-top: var(--header-height); */
+    margin-top: var(--header-height);
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     background-color: rgb(246, 238, 238);
@@ -107,7 +107,7 @@ img {
 
 .section_title>span {
     font-size: var(--large-font);
-    font-size: clamp(26px,5vw,var(--large-font));
+    font-size: clamp(24px,5vw,var(--large-font));
     color: var(--text-lighter);
     margin-left: 10px;
     font-weight: 700;

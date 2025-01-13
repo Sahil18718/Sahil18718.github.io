@@ -618,7 +618,9 @@
 }
 
 #githubstates {
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .float-left{
     display: none;
@@ -644,7 +646,6 @@
 .github-carousel-window {
     display: flex;
     align-items: center;
-    width: 70%;
     object-fit: contain;
 }
 .github-carousel-window>div>img{

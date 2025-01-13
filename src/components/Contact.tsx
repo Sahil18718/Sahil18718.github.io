@@ -1,6 +1,5 @@
 import React from "react";
 import { contactData } from "@/data";
-import Image from "next/image";
 
 
 const Contact = () => {

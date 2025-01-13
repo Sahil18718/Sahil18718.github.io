@@ -5,16 +5,15 @@ export const aboutData = {
         hiddenSkills:
             '"NodeJS", "JavaScript", "MongoDB", "Frontend", "Backend", "Python", "SQL", "UI", "HTML", "CSS", "Express", "RESTful APIs"',
         introduction:
-            "Hello, I'm Sahil Malviya, an adaptable professional with a background in generative AI, poised to transition into software engineering. Proficient in teamwork, payment gateways, mobile app development, subscription systems, and many more skills. Skilled in both backend and frontend development, with a proven track record of innovation.",
+            "Full Stack Developer with 3+ years of experience specializing in mobile app development using React Native, ReactJS, Next.js, and Node.js. Proficient in JavaScript and TypeScript, with expertise in designing scalable, high- performance solutions and integrating complex features across frontend and backend systems. Skilled in building cohesive applications by developing both interfaces and architecture simultaneously. Continuously exploring new technologies to drive innovation and efficiency in mobile and web development.",
         details:
             "For more details on my skills and projects, please see the sections below.",
-        masaiSchoolAchievement: "At Masai School, I have successfully completed the following:",
     },
-    stats: [
-        { number: "1500+", title: "Hours of coding" },
-        { number: "500+", title: "DSA Problems" },
-        { number: "12+", title: "Projects" },
-    ],
+    // stats: [
+    //     { number: "1500+", title: "Hours of coding" },
+    //     { number: "500+", title: "DSA Problems" },
+    //     { number: "12+", title: "Projects" },
+    // ],
     resume: {
         link: "/Sahil-Malviya-Resume.pdf",
         buttonText: "Download CV",

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 
 const About = () => {
-  const { sectionTitle, intro, stats, resume, profileImage } = aboutData;
+  const { sectionTitle, intro, resume, profileImage } = aboutData;
 
   return (
     <section id="about" className="about section">
@@ -25,17 +25,16 @@ const About = () => {
           {/* About Content */}
           <p>{intro.introduction}</p>
           <p>{intro.details}</p>
-          <p>{intro.masaiSchoolAchievement}</p>
 
           {/* Stats Section */}
-          <div className="about_stats">
+          {/* <div className="about_stats">
             {stats.map((stat, index) => (
               <div key={index}>
                 <span className="stats_number">{stat.number}</span>
                 <span className="stats_title">{stat.title}</span>
               </div>
             ))}
-          </div>
+          </div> */}
 
           {/* Download Resume Button */}
           <button id="resume-button-2" className="shine2" data-aos="zoom-in-down">

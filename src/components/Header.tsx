@@ -1,20 +1,21 @@
 import Image from "next/image";
 import React from "react";
 import image from "../../assets/img/logo/S-removebg-preview.png"
+import Link from "next/link";
 
 const Header = () => {
   return (
     <header id="nav-menu" data-aos="fade-down" className="navigation">
       <div className="nav_container">
         {/* Logo */}
-        <a href="/" className="nav_logo">
+        <Link href="/" className="nav_logo">
           <Image
             src={image}
             width={500}
             alt={`logo Image`}
           />
           {/* <img src="/logo/S.png" alt="Logo" /> */}
-        </a>
+        </Link>
 
         {/* Menu toggle for small devices */}
         <div id="menuToggle">

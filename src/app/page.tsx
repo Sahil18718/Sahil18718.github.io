@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Header from "@/components/Header";
 import LeftSection from "@/components/LeftSection";
 import About from "@/components/About";
@@ -18,7 +17,7 @@ export default function Home() {
         <Header />
         <HomeSection />
         <About />
-        {/* <Skills /> */}
+        <Skills />
         <Projects />
         <GitHubStats />
         <Contact />
