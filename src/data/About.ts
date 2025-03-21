@@ -5,7 +5,7 @@ export const aboutData = {
         hiddenSkills:
             '"NodeJS", "JavaScript", "MongoDB", "Frontend", "Backend", "Python", "SQL", "UI", "HTML", "CSS", "Express", "RESTful APIs"',
         introduction:
-            "Full Stack Developer with 3+ years of experience specializing in mobile app development using React Native, ReactJS, Next.js, and Node.js. Proficient in JavaScript and TypeScript, with expertise in designing scalable, high- performance solutions and integrating complex features across frontend and backend systems. Skilled in building cohesive applications by developing both interfaces and architecture simultaneously. Continuously exploring new technologies to drive innovation and efficiency in mobile and web development.",
+            "Results-driven software engineer with 3+ years of experience in mobile and web application development, specializing in React Native, Next.js, ReactJS, and Node.js. Skilled in designing and optimizing scalable, high-performance applications with real-time communication, secure authentication, and cloud-based solutions. Successfully developed and maintained platforms serving 100K+ users, improving performance by 40%. Passionate about clean code, performance optimization, and AI integration, with a strong focus on enhancing user experience and driving business success through innovative and efficient solutions.",
         details:
             "For more details on my skills and projects, please see the sections below.",
     },
@@ -15,7 +15,7 @@ export const aboutData = {
     //     { number: "12+", title: "Projects" },
     // ],
     resume: {
-        link: "/Sahil-Malviya-Resume.pdf",
+        link: "https://drive.google.com/file/d/1iAqMXfsBQPrOkNgpgzhok94RpIugudPi/view?usp=sharing",
         buttonText: "Download CV",
     },
     profileImage: {

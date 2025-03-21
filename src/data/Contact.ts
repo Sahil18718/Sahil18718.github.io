@@ -1,5 +1,5 @@
 export const contactData = {
-    title: "05. Contact",
+    title: "07. Contact",
     intro: {
         heading: "Get in Touch",
         message:

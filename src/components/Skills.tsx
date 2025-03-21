@@ -7,7 +7,7 @@ const Skills = () => {
     <section id="skills" className="skills section" data-aos="fade-up">
       {/* Section Title */}
       <div className="section_title">
-        04. <span>Skills</span>
+        03. <span>Skills</span>
       </div>
 
       {/* Skills Container */}

@@ -8,7 +8,7 @@ const Projects = () => {
     <section id="projects" className="projects section">
       {/* Section Title */}
       <div className="section_title">
-        03. <span>My Projects</span>
+        05. <span>My Projects</span>
       </div>
 
       {/* Project Cards */}
