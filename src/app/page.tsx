@@ -7,6 +7,7 @@ import Contact from "@/components/Contact";
 import Projects from "@/components/Project";
 import Skills from "@/components/Skills";
 import GitHubStats from "@/components/GithubStats";
+import Experience from "@/components/Experience";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <HomeSection />
         <About />
         <Skills />
+        <Experience/>
         <Projects />
         <GitHubStats />
         <Contact />

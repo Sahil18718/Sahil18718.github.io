@@ -1,7 +1,7 @@
 import React from "react";
 
 const GitHubStats = () => {
-  const title = "04. GitHub Activities"
+  const title = "06. GitHub Activities"
   return (
     <section className="githubstates" id="githubstates" data-aos="fade-up">
        <div className="section_title">
@@ -60,11 +60,11 @@ const GitHubStats = () => {
           <span className="visually-hidden">Next</span>
         </button> */}
       </div>
-      <img
+      {/* <img
         style={{ width: "100%", height: "15%" }}
         src="http://ghchart.rshah.org/Sahil18718"
         alt="Sahil18718's GitHub chart"
-      />
+      /> */}
       {/* <img
         src="[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Sahil18718)](https://github.com/Sahil18718/github-readme-stats)"
         alt="WakaTime Stats"

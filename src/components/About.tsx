@@ -41,7 +41,7 @@ const About = () => {
             <a
               href={resume.link}
               id="resume-link-2"
-              download="Sahil-Malviya-Resume.pdf"
+              download="https://drive.google.com/file/d/1iAqMXfsBQPrOkNgpgzhok94RpIugudPi/view?usp=sharing"
               className="flex items-center"
             >
               {resume.buttonText} <i className="fa-solid fa-download ml-2"></i>

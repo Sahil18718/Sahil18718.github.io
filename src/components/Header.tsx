@@ -47,11 +47,11 @@ const Header = () => {
           {/* Resume Button */}
           <button id="resume-button-1" className="resume_link_resume shine">
             <a
-              href="/Sahil-Malviya-Resume.pdf"
+              href="https://drive.google.com/file/d/1iAqMXfsBQPrOkNgpgzhok94RpIugudPi/view?usp=sharing"
               className="nav-link resume"
               target="_blank"
               id="resume-link-1"
-              download="Sahil-Malviya-Resume.pdf"
+              download="https://drive.google.com/file/d/1iAqMXfsBQPrOkNgpgzhok94RpIugudPi/view?usp=sharing"
             >
               RESUME
             </a>
