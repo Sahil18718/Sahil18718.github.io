@@ -1,19 +1,19 @@
 export const experiences = [
-    {
-      company: "Freelancer",
-      role: "Software Engineer (Remote)",
-      duration: "Sep 2024 - Present",
-      responsibilities: [
-        "Developing and maintaining scalable web and mobile applications.",
-        "Optimizing application performance and ensuring high availability.",
-        "Implementing best practices for security and authentication."
-      ],
-      technologies: ["React Native", "Next.js", "Node.js", "AWS", "Docker"]
-    },
+    // {
+    //   company: "Freelancer",
+    //   role: "Software Engineer (Remote)",
+    //   duration: "Sep 2024 - Present",
+    //   responsibilities: [
+    //     "Developing and maintaining scalable web and mobile applications.",
+    //     "Optimizing application performance and ensuring high availability.",
+    //     "Implementing best practices for security and authentication."
+    //   ],
+    //   technologies: ["React Native", "Next.js", "Node.js", "AWS", "Docker"]
+    // },
     {
       company: "Buzzart Software Pvt Ltd",
       role: "Full Stack Developer (Remote)",
-      duration: "Aug 2022 - Sep 2024",
+      duration: "Aug 2022 - Apr 2025",
       responsibilities: [
         "Developed and optimized a gaming platform frontend, increasing engagement by 30%.",
         "Designed an intuitive UI/UX, reducing bounce rates by 25%.",
