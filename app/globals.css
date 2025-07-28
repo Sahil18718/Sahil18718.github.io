@@ -56,7 +56,7 @@
 
   /* Custom scrollbar */
   ::-webkit-scrollbar {
-    width: 8px;
+    width: 6px;
   }
 
   ::-webkit-scrollbar-track {
@@ -75,6 +75,18 @@
   ::selection {
     @apply bg-pink-100 dark:bg-pink-900/50 text-pink-900 dark:text-pink-100;
   }
+
+  /* Mobile touch improvements */
+  @media (max-width: 768px) {
+    * {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    button,
+    a {
+      touch-action: manipulation;
+    }
+  }
 }
 
 @layer utilities {
@@ -85,6 +97,15 @@
   /* Smooth transitions for theme switching */
   .transition-theme {
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+
+  /* Mobile-first responsive text */
+  .text-responsive {
+    @apply text-sm sm:text-base md:text-lg;
+  }
+
+  .heading-responsive {
+    @apply text-xl sm:text-2xl md:text-3xl;
   }
 }
 
@@ -109,4 +130,31 @@
 
 .animate-spin {
   animation: spin 1s linear infinite;
+}
+
+/* Mobile menu animations */
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOutRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.slide-in-right {
+  animation: slideInRight 0.3s ease-out;
+}
+
+.slide-out-right {
+  animation: slideOutRight 0.3s ease-in;
 }
