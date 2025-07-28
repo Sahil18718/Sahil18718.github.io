@@ -1,0 +1,31 @@
+import Header from "@/components/Header"
+import LeftSection from "@/components/LeftSection"
+import RightSection from "@/components/RightSection"
+import HomeSection from "@/components/HomeSection"
+import About from "@/components/About"
+import Skills from "@/components/Skills"
+import Experience from "@/components/Experience"
+import Projects from "@/components/Projects"
+import GitHubStats from "@/components/GitHubStats"
+import Contact from "@/components/Contact"
+import ClientScrollButton from "@/components/ClientScrollButton"
+
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-white dark:bg-black transition-colors duration-300">
+      <LeftSection />
+      <RightSection />
+      <div className="lg:ml-16 lg:mr-16">
+        <Header />
+        <HomeSection />
+        <About />
+        <Experience />
+        <Projects />
+        <Skills />
+        <GitHubStats />
+        <Contact />
+        <ClientScrollButton />
+      </div>
+    </div>
+  )
+}
