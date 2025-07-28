@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #fafafa;
+  --foreground: #1f2937;
+  --card: #ffffff;
+  --card-foreground: #1f2937;
+  --primary: #e91e63;
+  --primary-foreground: #ffffff;
+  --secondary: #f3f4f6;
+  --secondary-foreground: #374151;
+  --muted: #f9fafb;
+  --muted-foreground: #6b7280;
+  --accent: #f3f4f6;
+  --accent-foreground: #1f2937;
+  --border: #e5e7eb;
+  --input: #e5e7eb;
+  --ring: #e91e63;
+}
+
+.dark {
+  --background: #0a0a0a;
+  --foreground: #f8fafc;
+  --card: #111111;
+  --card-foreground: #f8fafc;
+  --primary: #f472b6;
+  --primary-foreground: #0a0a0a;
+  --secondary: #1a1a1a;
+  --secondary-foreground: #e2e8f0;
+  --muted: #1a1a1a;
+  --muted-foreground: #94a3b8;
+  --accent: #1a1a1a;
+  --accent-foreground: #f8fafc;
+  --border: #2a2a2a;
+  --input: #2a2a2a;
+  --ring: #f472b6;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .font-mono {
+    font-family: var(--font-jetbrains-mono), "Courier New", monospace;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-100 dark:bg-gray-900;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 dark:bg-gray-700 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-400 dark:bg-gray-600;
+  }
+
+  /* Selection colors */
+  ::selection {
+    @apply bg-pink-100 dark:bg-pink-900/50 text-pink-900 dark:text-pink-100;
+  }
+}
+
+@layer utilities {
+  .font-inter {
+    font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  }
+
+  /* Smooth transitions for theme switching */
+  .transition-theme {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+}
+
+/* Dark mode specific styles */
+.dark {
+  color-scheme: dark;
+}
+
+/* Focus styles for accessibility */
+@layer base {
+  *:focus-visible {
+    @apply outline-none ring-2 ring-pink-500 dark:ring-pink-400 ring-offset-2 ring-offset-white dark:ring-offset-black;
+  }
+}
+
+/* Loading animation */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
