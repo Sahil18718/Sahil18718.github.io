@@ -6,9 +6,9 @@ import About from "@/components/About"
 import Skills from "@/components/Skills"
 import Experience from "@/components/Experience"
 import Projects from "@/components/Projects"
-import GitHubStats from "@/components/GitHubStats"
 import Contact from "@/components/Contact"
 import ClientScrollButton from "@/components/ClientScrollButton"
+import GitHubStats from "@/components/GithubStats"
 
 export default function Home() {
   return (
