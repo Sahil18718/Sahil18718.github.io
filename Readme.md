@@ -1,9 +1,9 @@
 # 🚀 Sahil Malviya - Portfolio Website
 
-A modern, responsive portfolio built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**. It features a clean design, dark/light theme toggle, mobile-first responsiveness, and smooth animations.
+A modern, responsive portfolio built with **Next.js 15**, **TypeScript**, and **Tailwind CSS**. It features a clean design, dark/light theme toggle, mobile-first responsiveness, and smooth animations.
 
 ![Portfolio Preview](https://img.shields.io/badge/Status-Live-brightgreen)
-![Next.js](https://img.shields.io/badge/Next.js-14-black)
+![Next.js](https://img.shields.io/badge/Next.js-15-black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-38bdf8)
 
@@ -49,29 +49,12 @@ A modern, responsive portfolio built with **Next.js 14**, **TypeScript**, and **
 
 | Layer      | Tech                                      |
 |------------|-------------------------------------------|
-| Frontend   | Next.js 14, TypeScript, Tailwind CSS      |
+| Frontend   | Next.js 15, TypeScript, Tailwind CSS      |
 | Icons      | Lucide React                              |
 | Fonts      | Inter, JetBrains Mono                     |
 | Tools      | ESLint, Prettier, Git, Vercel             |
 
 ---
 
-## 🚀 Quick Start
-
 ### 📦 Prerequisites
-- Node.js `v18+`
-- npm or yarn
-- Git
-
-### 🧪 Development Setup
-
-```bash
-# Clone
-git clone https://github.com/Sahil18718/portfolio.git
-cd portfolio
-
-# Install dependencies
-yarn install
-
-# Run local server
-yarn dev
+- Node.js `v20.14.0`

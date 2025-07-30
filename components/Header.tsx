@@ -2,6 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import ClientThemeToggle from "./ClientThemeToggle"
 import ClientMobileMenu from "./ClientMobileMenu"
+import logo from "../public/Logo.png"
 
 const Header = () => {
   return (
@@ -12,11 +13,11 @@ const Header = () => {
           <Link href="/" className="flex items-center group">
             <div className="relative">
               <Image
-                src="/logo-main.svg"
-                width={40}
-                height={40}
+                src={logo}
+                width={80}
+                height={50}
                 alt="Sahil Malviya"
-                className="group-hover:scale-105 transition-transform duration-200 md:w-[45px] md:h-[45px] dark:invert"
+                className="group-hover:scale-105 transition-transform duration-200 md:w-[95px] md:h-[65px] dark:invert"
                 priority
               />
             </div>

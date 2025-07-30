@@ -45,11 +45,11 @@ const About = () => {
           </div>
 
           <div className="relative order-1 lg:order-2">
-            <div className="relative bg-white dark:bg-gray-800 p-4 sm:p-6 md:p-8 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 max-w-sm sm:max-w-md mx-auto lg:max-w-none">
+            <div className="relative bg-white dark:bg-gray-800 p-4 sm:p-6 md:p-8 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 max-w-sm sm:max-w-md mx-auto lg:max-w-md">
               <Image
                 src="/profile.jpg"
-                width={400}
-                height={400}
+                width={100}
+                height={100}
                 alt="Sahil Malviya"
                 className="rounded-lg w-full h-auto"
                 priority
