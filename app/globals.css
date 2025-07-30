@@ -3,11 +3,12 @@
 @tailwind utilities;
 
 :root {
-  --background: #fafafa;
+  --background: #f8faff; /* Very subtle light blue-gray */
   --foreground: #1f2937;
   --card: #ffffff;
   --card-foreground: #1f2937;
-  --primary: #e91e63;
+  --primary: #00838f; /* New primary accent: Dark Cyan 800 */
+  --primary-hover: #006064; /* Dark Cyan 900 for hover */
   --primary-foreground: #ffffff;
   --secondary: #f3f4f6;
   --secondary-foreground: #374151;
@@ -17,25 +18,34 @@
   --accent-foreground: #1f2937;
   --border: #e5e7eb;
   --input: #e5e7eb;
-  --ring: #e91e63;
+  --ring: #00838f; /* Ring color matches new primary */
+
+  /* New accent shades for light theme */
+  --accent-light-bg: #e0f2f7; /* Light Blue 50 */
+  --accent-light-text: #01579b; /* Light Blue 900 */
 }
 
 .dark {
-  --background: #0a0a0a;
+  --background: #010101; /* Slightly lighter dark gray ("light black") */
   --foreground: #f8fafc;
-  --card: #111111;
+  --card: #1a1a1a; /* Adjusted for new dark background */
   --card-foreground: #f8fafc;
-  --primary: #f472b6;
+  --primary: #4db6ac; /* New primary accent for dark theme: Teal 300 */
+  --primary-hover: #26a69a; /* Teal 500 for hover */
   --primary-foreground: #0a0a0a;
-  --secondary: #1a1a1a;
+  --secondary: #2a2a2a; /* Adjusted for new dark background */
   --secondary-foreground: #e2e8f0;
-  --muted: #1a1a1a;
+  --muted: #2a2a2a; /* Adjusted for new dark background */
   --muted-foreground: #94a3b8;
-  --accent: #1a1a1a;
+  --accent: #2a2a2a; /* Adjusted for new dark background */
   --accent-foreground: #f8fafc;
-  --border: #2a2a2a;
-  --input: #2a2a2a;
-  --ring: #f472b6;
+  --border: #3a3a3a; /* Adjusted for new dark background */
+  --input: #3a3a3a; /* Adjusted for new dark background */
+  --ring: #4db6ac; /* Ring color matches new primary dark */
+
+  /* New accent shades for dark theme */
+  --accent-dark-bg: #004d40; /* Dark Teal 900 */
+  --accent-dark-text: #80cbc4; /* Teal 200 */
 }
 
 @layer base {
@@ -73,7 +83,12 @@
 
   /* Selection colors */
   ::selection {
-    @apply bg-pink-100 dark:bg-pink-900/50 text-pink-900 dark:text-pink-100;
+    background-color: var(--accent-light-bg);
+    color: var(--accent-light-text);
+  }
+  .dark ::selection {
+    background-color: var(--accent-dark-bg);
+    color: var(--accent-dark-text);
   }
 
   /* Mobile touch improvements */
@@ -117,7 +132,14 @@
 /* Focus styles for accessibility */
 @layer base {
   *:focus-visible {
-    @apply outline-none ring-2 ring-pink-500 dark:ring-pink-400 ring-offset-2 ring-offset-white dark:ring-offset-black;
+    @apply outline-none ring-2 ring-offset-2 ring-offset-white dark:ring-offset-black;
+    /* Apply light mode ring color */
+    --tw-ring-color: var(--primary);
+  }
+
+  .dark *:focus-visible {
+    /* Apply dark mode ring color */
+    --tw-ring-color: var(--primary-dark);
   }
 }
 

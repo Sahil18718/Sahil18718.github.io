@@ -24,7 +24,7 @@ const ClientScrollButton = () => {
   return (
     <button
       onClick={scrollToTop}
-      className="fixed bottom-6 right-6 bg-pink-600 hover:bg-pink-700 dark:bg-pink-500 dark:hover:bg-pink-600 text-white p-3 rounded-full shadow-lg transition-all duration-200 z-50 hover:scale-110 transform"
+      className="fixed bottom-6 right-6 bg-[color:var(--primary)] hover:bg-[color:var(--primary-hover)] dark:bg-[color:var(--primary-dark)] dark:hover:bg-[color:var(--primary-dark-hover)] text-white p-3 rounded-full shadow-lg transition-all duration-200 z-30 hover:scale-110 transform"
       aria-label="Scroll to top"
     >
       <ArrowUp className="w-5 h-5" />

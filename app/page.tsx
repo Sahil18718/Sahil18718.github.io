@@ -12,7 +12,7 @@ import GitHubStats from "@/components/GithubStats"
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white dark:bg-black transition-colors duration-300">
+    <div className="min-h-screen bg-[color:var(--background)] transition-colors duration-300">
       <LeftSection />
       <RightSection />
       <div className="lg:ml-16 lg:mr-16">

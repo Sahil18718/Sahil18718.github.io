@@ -2,7 +2,7 @@ import { Github, Linkedin, Phone } from "lucide-react"
 
 const LeftSection = () => {
   return (
-    <div className="fixed left-4 lg:left-6 top-1/2 transform -translate-y-1/2 z-30 hidden lg:block">
+    <div className="fixed left-4 lg:left-6 top-1/2 transform -translate-y-1/2 z-20 hidden lg:block">
       <div className="flex flex-col items-center space-y-6">
         {[
           {
@@ -26,7 +26,7 @@ const LeftSection = () => {
             href={social.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 dark:text-gray-400 hover:text-pink-600 dark:hover:text-pink-400 transition-colors duration-200 p-2"
+            className="text-gray-600 dark:text-gray-400 hover:text-[color:var(--primary)] dark:hover:text-[color:var(--primary-dark)] transition-colors duration-200 p-2"
             title={social.label}
           >
             {social.icon}

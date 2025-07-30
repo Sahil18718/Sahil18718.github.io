@@ -25,23 +25,23 @@ const skillCategories = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-12 sm:py-16 md:py-24 px-4 sm:px-6 bg-gray-50 dark:bg-black">
+    <section id="skills" className="py-12 sm:py-16 md:py-24 px-4 sm:px-6 bg-[color:var(--background)]">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-8 sm:mb-12 md:mb-16">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-4">
             Technical Skills
           </h2>
-          <div className="w-12 h-1 bg-pink-600 dark:bg-pink-400 mx-auto"></div>
+          <div className="w-12 h-1 bg-[color:var(--primary)] dark:bg-[color:var(--primary-dark)] mx-auto"></div>
         </div>
 
         <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
           {skillCategories.map((category, index) => (
             <div
               key={index}
-              className="bg-white dark:bg-gray-800 p-4 sm:p-6 md:p-8 rounded-xl border border-gray-200 dark:border-gray-700 hover:shadow-lg dark:hover:shadow-2xl dark:hover:shadow-pink-500/10 transition-all duration-200"
+              className="bg-white dark:bg-[#1a1a1a] p-4 sm:p-6 md:p-8 rounded-xl border border-gray-200 dark:border-gray-700 hover:shadow-lg dark:hover:shadow-2xl dark:hover:shadow-[color:var(--primary-dark)]/10 transition-all duration-200"
             >
               <div className="flex items-center mb-4 sm:mb-6">
-                <div className="bg-pink-100 dark:bg-pink-900/50 text-pink-600 dark:text-pink-400 p-2 sm:p-3 rounded-lg mr-3 sm:mr-4">
+                <div className="bg-[color:var(--accent-light-bg)] dark:bg-[color:var(--accent-dark-bg)] text-[color:var(--primary)] dark:text-[color:var(--primary-dark)] p-2 sm:p-3 rounded-lg mr-3 sm:mr-4">
                   {category.icon}
                 </div>
                 <h3 className="text-base sm:text-lg md:text-xl font-semibold text-gray-900 dark:text-white">

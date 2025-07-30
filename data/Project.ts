@@ -1,58 +1,42 @@
 export const projects = [
   {
-    title: "Shoplliex",
+    title: "Shopliex E-commerce Platform",
     description:
-      "In just 4 days, I've successfully created a secure e-commerce clothing website with a robust and secure backend. Users can confidently browse, shop, and make purchases on the platform, knowing that their data is protected.",
-    type: "Individual project",
-    techStack: ["HTML5&CSS", "JavaScript", "NodeJS", "RESTful APIs", "Express", "MongoDB"],
-    images: [
-      "/placeholder.svg?height=400&width=600",
-      "/placeholder.svg?height=400&width=600",
-      "/placeholder.svg?height=400&width=600",
-    ],
+      "A comprehensive e-commerce solution built with modern web technologies. Features secure payment processing, inventory management, and responsive design. Implemented robust backend architecture with user authentication and order management systems.",
+    type: "Full-stack Application",
+    techStack: ["JavaScript", "Node.js", "Express.js", "MongoDB", "RESTful APIs", "HTML5", "CSS3"],
     github: "https://github.com/Sahil18718/NXMproject",
     live: "https://subtle-florentine-6d190f.netlify.app/",
+    highlights: ["Secure payment integration", "Real-time inventory tracking", "Responsive design"],
   },
   {
-    title: "Dentique",
+    title: "Dentique Healthcare Platform",
     description:
-      "In just 4 days, we've launched a platform connecting patients with the right doctors swiftly and efficiently. Users can visit our website, find ideal healthcare providers, and schedule appointments hassle-free.",
-    type: "Collaborative project",
-    techStack: ["HTML5", "CSS3", "JavaScript", "Node", "Socket.io", "Express", "MongoDB"],
-    images: [
-      "/placeholder.svg?height=400&width=600",
-      "/placeholder.svg?height=400&width=600",
-      "/placeholder.svg?height=400&width=600",
-    ],
+      "A healthcare management platform connecting patients with healthcare providers. Built with real-time communication features, appointment scheduling, and secure patient data management. Collaborative project focusing on user experience and system reliability.",
+    type: "Healthcare Management System",
+    techStack: ["JavaScript", "Node.js", "Socket.io", "Express.js", "MongoDB", "HTML5", "CSS3"],
     github: "https://github.com/Sahil18718/greasy-sofa-244",
     live: "https://649021df72e88046e26e0220--stalwart-fairy-c0e628.netlify.app/",
+    highlights: ["Real-time communication", "Appointment scheduling", "Secure data handling"],
   },
   {
     title: "Shopping Zone",
     description:
-      "In just 4 days, we've launched a one-stop shopping website where users can find a wide range of products for men, women, and gifts. Our platform offers a seamless shopping experience with diverse product categories.",
-    type: "Individual project",
+      "A one-stop shopping website offering a wide range of products for men, women, and gifts. Provides a seamless shopping experience with diverse product categories and user-friendly navigation.",
+    type: "Individual Project",
     techStack: ["HTML5", "CSS3", "JavaScript", "NodeJS", "JWT", "Express", "MongoDB"],
-    images: [
-      "/placeholder.svg?height=400&width=600",
-      "/placeholder.svg?height=400&width=600",
-      "/placeholder.svg?height=400&width=600",
-    ],
     github: "https://github.com/Sahil18718/Unit3project-group",
     live: "https://groupprojectunit3.netlify.app/",
+    highlights: ["Diverse product categories", "User authentication with JWT", "Seamless shopping experience"],
   },
   {
-    title: "Burberry",
+    title: "Burberry E-commerce Clone",
     description:
-      "In just 3 days, I've developed a straightforward e-commerce website that allows users to browse and purchase products online. This user-friendly platform offers essential shopping features, making it easy for customers to find and buy products.",
-    type: "Individual project",
+      "A straightforward e-commerce website clone allowing users to browse and purchase products online. Focuses on essential shopping features and a user-friendly interface for easy product discovery.",
+    type: "Individual Project",
     techStack: ["HTML5", "CSS3", "JavaScript"],
-    images: [
-      "/placeholder.svg?height=400&width=600",
-      "/placeholder.svg?height=400&width=600",
-      "/placeholder.svg?height=400&width=600",
-    ],
     github: "https://github.com/Sahil18718/tired-rail-4343",
     live: "https://cosmic-meringue-964590.netlify.app/",
+    highlights: ["Product browsing", "Shopping cart functionality", "Simple user interface"],
   },
 ]

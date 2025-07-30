@@ -55,7 +55,7 @@ const ClientMobileMenu = ({ children }: ClientMobileMenuProps) => {
       {/* Mobile Menu Button */}
       <button
         onClick={toggleMenu}
-        className="md:hidden p-2 rounded-md text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200 relative z-50"
+        className="md:hidden p-2 rounded-md text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200 relative z-[10001]"
         aria-label="Toggle menu"
         aria-expanded={isMenuOpen}
       >
@@ -75,22 +75,19 @@ const ClientMobileMenu = ({ children }: ClientMobileMenuProps) => {
 
       {/* Mobile Navigation Overlay */}
       {isMenuOpen && (
-        <div className="fixed inset-0 z-40 md:hidden">
-          {/* Backdrop */}
-          <div
-            className="fixed inset-0 bg-black/50 backdrop-blur-sm transition-opacity duration-300"
-            onClick={closeMenu}
-          />
+        <div className="fixed inset-0 z-[9999] md:hidden">
+          {/* Full Screen Backdrop */}
+          <div className="fixed inset-0 bg-black/60 backdrop-blur-sm" onClick={closeMenu} />
 
           {/* Slide-out Menu */}
           <div
-            className={`fixed top-0 right-0 h-full w-80 max-w-[85vw] bg-white dark:bg-gray-900 shadow-2xl transform transition-transform duration-300 ease-in-out ${
+            className={`fixed top-0 right-0 h-full w-full bg-white dark:bg-gray-900 shadow-2xl transition-transform duration-300 ease-in-out z-[10000] ${
               isMenuOpen ? "translate-x-0" : "translate-x-full"
             }`}
           >
             <div className="flex flex-col h-full">
               {/* Header */}
-              <div className="flex items-center justify-between p-6 border-b border-gray-200 dark:border-gray-700">
+              <div className="flex items-center justify-between p-6 border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900">
                 <h2 className="text-lg font-semibold text-gray-900 dark:text-white">Menu</h2>
                 <button
                   onClick={closeMenu}
@@ -102,7 +99,7 @@ const ClientMobileMenu = ({ children }: ClientMobileMenuProps) => {
               </div>
 
               {/* Navigation Links */}
-              <nav className="flex-1 px-6 py-6">
+              <nav className="flex-1 px-6 py-6 bg-white dark:bg-gray-900 overflow-y-auto">
                 <div className="space-y-1">
                   {[
                     { href: "#about", label: "About" },
@@ -115,7 +112,8 @@ const ClientMobileMenu = ({ children }: ClientMobileMenuProps) => {
                       key={item.href}
                       href={item.href}
                       onClick={closeMenu}
-                      className="block px-4 py-3 text-base font-medium text-gray-700 dark:text-gray-200 hover:text-pink-600 dark:hover:text-pink-400 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-lg transition-colors duration-200"
+                      className="block px-4 py-3 text-base font-medium text-gray-700 dark:text-gray-200 hover:text-[color:var(--primary)] dark:hover:text-[color:var(--primary-dark)] hover:bg-gray-50 dark:hover:bg-gray-800 rounded-lg transition-colors duration-200"
+                      aria-label={`Navigate to ${item.label} section`}
                     >
                       {item.label}
                     </a>
@@ -129,7 +127,8 @@ const ClientMobileMenu = ({ children }: ClientMobileMenuProps) => {
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={closeMenu}
-                    className="block w-full bg-pink-600 hover:bg-pink-700 dark:bg-pink-500 dark:hover:bg-pink-600 text-white px-4 py-3 rounded-lg font-medium text-center transition-colors duration-200 shadow-sm"
+                    className="block w-full bg-[color:var(--primary)] hover:bg-[color:var(--primary-hover)] dark:bg-[color:var(--primary-dark)] dark:hover:bg-[color:var(--primary-dark-hover)] text-white px-4 py-3 rounded-lg font-medium text-center transition-colors duration-200 shadow-sm"
+                    aria-label="Download Resume"
                   >
                     Download Resume
                   </a>
@@ -137,7 +136,7 @@ const ClientMobileMenu = ({ children }: ClientMobileMenuProps) => {
               </nav>
 
               {/* Footer */}
-              <div className="p-6 border-t border-gray-200 dark:border-gray-700">
+              <div className="p-6 border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900">
                 <div className="flex justify-center space-x-6">
                   {[
                     {
@@ -164,7 +163,7 @@ const ClientMobileMenu = ({ children }: ClientMobileMenuProps) => {
                       href={social.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-500 dark:text-gray-400 hover:text-pink-600 dark:hover:text-pink-400 transition-colors duration-200"
+                      className="text-gray-500 dark:text-gray-400 hover:text-[color:var(--primary)] dark:hover:text-[color:var(--primary-dark)] transition-colors duration-200"
                       aria-label={social.label}
                     >
                       {social.icon}
