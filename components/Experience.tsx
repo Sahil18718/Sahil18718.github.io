@@ -1,36 +1,6 @@
-import { Calendar, MapPin } from "lucide-react"
 
-const experiences = [
-  {
-    role: "Software Engineer",
-    company: "Freelancer",
-    location: "Remote",
-    duration: "Sep 2024 - Present",
-    type: "Contract",
-    responsibilities: [
-      "Develop and maintain scalable web and mobile applications using React Native and Next.js",
-      "Optimize application performance and ensure high availability for production systems",
-      "Implement security best practices and authentication systems for client applications",
-      "Collaborate with cross-functional teams to deliver high-quality software solutions",
-    ],
-    technologies: ["React Native", "Next.js", "Node.js", "AWS", "Docker", "TypeScript"],
-  },
-  {
-    role: "Full Stack Developer",
-    company: "Buzzart Software Pvt Ltd",
-    location: "Remote",
-    duration: "Aug 2022 - Sep 2024",
-    type: "Full-time",
-    responsibilities: [
-      "Developed and optimized gaming platform frontend, resulting in 30% increase in user engagement",
-      "Designed intuitive UI/UX interfaces that reduced bounce rates by 25%",
-      "Implemented JWT-based authentication system securing 50K+ active users",
-      "Built RESTful APIs and integrated third-party services for enhanced functionality",
-      "Mentored junior developers and conducted code reviews to maintain code quality",
-    ],
-    technologies: ["React Native", "ReactJS", "Node.js", "MongoDB", "Express.js", "JWT"],
-  },
-]
+import { experiences } from "@/data/Experience"
+import { Calendar, MapPin } from "lucide-react"
 
 const Experience = () => {
   return (

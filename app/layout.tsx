@@ -1,7 +1,7 @@
 import type React from "react"
 import { Inter, JetBrains_Mono } from "next/font/google"
 import "./globals.css"
-import { ClientThemeProvider } from "@/components/ClientThemeProvider"
+import { ClientThemeProvider } from "@/components/providers/ClientThemeProvider"
 import { themeScript } from "@/lib/theme-script"
 
 const inter = Inter({

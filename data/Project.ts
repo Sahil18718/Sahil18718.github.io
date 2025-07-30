@@ -1,42 +1,55 @@
 export const projects = [
-  {
-    title: "Shopliex E-commerce Platform",
+   {
+    title: "Bettrlabs Platform",
     description:
-      "A comprehensive e-commerce solution built with modern web technologies. Features secure payment processing, inventory management, and responsive design. Implemented robust backend architecture with user authentication and order management systems.",
-    type: "Full-stack Application",
-    techStack: ["JavaScript", "Node.js", "Express.js", "MongoDB", "RESTful APIs", "HTML5", "CSS3"],
-    github: "https://github.com/Sahil18718/NXMproject",
-    live: "https://subtle-florentine-6d190f.netlify.app/",
-    highlights: ["Secure payment integration", "Real-time inventory tracking", "Responsive design"],
+      "A next-generation health and wellness platform with custom CMS, AI-powered insights, and high SEO scores. Built with performance and scalability in mind.",
+    type: "Web Application",
+    techStack: ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "CI/CD", "Storybook"],
+    live: "https://app.bettrlabs.com/",
+    highlights: [
+      "Migrated frontend from React.js to Next.js for better performance and SEO",
+      "Achieved perfect scores (100) on Google Lighthouse for performance, SEO, and best practices",
+      "Implemented CI/CD pipelines and Storybook for modular, scalable UI development",
+      "Developed a custom CMS to support dynamic and easily editable content",
+    ],
+  },
+   {
+    title: "Chat Lynk",
+    description:
+      "A real-time chat application with instant messaging and notifications. Integrated Redux for state management and WebSocket for live updates.",
+    type: "Mobile Application",
+    techStack: ["React Native", "TypeScript", "JavaScript", "WebSocket", "Redux"],
+    live: "https://play.google.com/store/apps/details?id=com.lucky_chat&hl=en",
+    highlights: [
+      "40% reduction in app load time using advanced caching",
+      "Real-time communication using WebSocket",
+      "50K+ user sync using Redux for scalable state management",
+    ],
   },
   {
-    title: "Dentique Healthcare Platform",
+    title: "Samaj App",
     description:
-      "A healthcare management platform connecting patients with healthcare providers. Built with real-time communication features, appointment scheduling, and secure patient data management. Collaborative project focusing on user experience and system reliability.",
-    type: "Healthcare Management System",
-    techStack: ["JavaScript", "Node.js", "Socket.io", "Express.js", "MongoDB", "HTML5", "CSS3"],
-    github: "https://github.com/Sahil18718/greasy-sofa-244",
-    live: "https://649021df72e88046e26e0220--stalwart-fairy-c0e628.netlify.app/",
-    highlights: ["Real-time communication", "Appointment scheduling", "Secure data handling"],
+      "A matrimonial mobile application built for a diverse user base. The app supports real-time features, secure authentication, and in-app payments, providing a seamless user experience.",
+    type: "Mobile Application",
+    techStack: ["React Native", "TypeScript", "Node.js", "Firebase", "Razorpay", "AWS", "Cloudinary", "JWT", "Redis"],
+    live: "https://play.google.com/store/apps/details?id=com.diversoshaadiapp",
+    highlights: [
+      "Real-time data handling with Firebase",
+      "JWT authentication and secure payments with Razorpay",
+      "Media management with Cloudinary and caching with Redis",
+    ],
   },
   {
-    title: "Shopping Zone",
+    title: "Samaj App Web & Diverso Web",
     description:
-      "A one-stop shopping website offering a wide range of products for men, women, and gifts. Provides a seamless shopping experience with diverse product categories and user-friendly navigation.",
-    type: "Individual Project",
-    techStack: ["HTML5", "CSS3", "JavaScript", "NodeJS", "JWT", "Express", "MongoDB"],
-    github: "https://github.com/Sahil18718/Unit3project-group",
-    live: "https://groupprojectunit3.netlify.app/",
-    highlights: ["Diverse product categories", "User authentication with JWT", "Seamless shopping experience"],
-  },
-  {
-    title: "Burberry E-commerce Clone",
-    description:
-      "A straightforward e-commerce website clone allowing users to browse and purchase products online. Focuses on essential shopping features and a user-friendly interface for easy product discovery.",
-    type: "Individual Project",
-    techStack: ["HTML5", "CSS3", "JavaScript"],
-    github: "https://github.com/Sahil18718/tired-rail-4343",
-    live: "https://cosmic-meringue-964590.netlify.app/",
-    highlights: ["Product browsing", "Shopping cart functionality", "Simple user interface"],
-  },
-]
+      "Developed companion websites for the Samaj App and Diverso. Focused on fast loading, SEO optimization, and clean UI/UX to improve user acquisition and brand presence.",
+    type: "Web Application",
+    techStack: ["Next.js", "TypeScript", "JavaScript", "Tailwind CSS"],
+    live: "https://diverso-samaj-website.vercel.app/",
+    highlights: [
+      "50% improvement in page load speed",
+      "20% increase in lead conversions for the company website",
+      "Optimized for SEO and performance",
+    ],
+  }
+];

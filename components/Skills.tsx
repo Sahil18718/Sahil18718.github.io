@@ -4,24 +4,57 @@ const skillCategories = [
   {
     title: "Frontend Development",
     icon: <Globe className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />,
-    skills: ["React", "Next.js", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "React Native"],
+    skills: [
+      "React Native",
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "JavaScript (ES6+)",
+      "Tailwind CSS",
+      "HTML5",
+      "CSS3",
+    ],
   },
   {
     title: "Backend Development",
     icon: <Server className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />,
-    skills: ["Node.js", "Express.js", "RESTful APIs", "GraphQL", "Microservices", "Authentication"],
+    skills: [
+      "Node.js",
+      "Express.js",
+      "RESTful APIs",
+      "Authentication (JWT, OAuth)",
+      "Firebase",
+      "Python",
+    ],
   },
   {
     title: "Database & Cloud",
     icon: <Database className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />,
-    skills: ["MongoDB", "PostgreSQL", "MySQL", "AWS", "Docker", "Redis"],
+    skills: [
+      "MongoDB",
+      "PostgreSQL",
+      "MySQL",
+      "Redis",
+      "AWS (S3, EC2)",
+      "Cloudinary",
+      "Docker",
+    ],
   },
   {
     title: "Development Tools",
     icon: <Terminal className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />,
-    skills: ["Git", "GitHub", "VS Code", "Postman", "Jest", "Webpack", "Vite"],
+    skills: [
+      "GitHub",
+      "CI/CD",
+      "Storybook",
+      "VS Code",
+      "Postman",
+      "Unit Testing",
+      "E2E Testing",
+    ],
   },
 ]
+
 
 const Skills = () => {
   return (

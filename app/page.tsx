@@ -7,8 +7,7 @@ import Skills from "@/components/Skills"
 import Experience from "@/components/Experience"
 import Projects from "@/components/Projects"
 import Contact from "@/components/Contact"
-import ClientScrollButton from "@/components/ClientScrollButton"
-import GitHubStats from "@/components/GithubStats"
+import ClientScrollButton from "@/components/clients/ClientScrollButton"
 
 export default function Home() {
   return (
@@ -19,10 +18,9 @@ export default function Home() {
         <Header />
         <HomeSection />
         <About />
+        <Skills />
         <Experience />
         <Projects />
-        <Skills />
-        <GitHubStats />
         <Contact />
         <ClientScrollButton />
       </div>

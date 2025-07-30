@@ -13,7 +13,7 @@ const contactMethods = [
     value: "+91 7987183876",
     icon: <Phone className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />,
     link: "tel:+917987183876",
-    description: "Available during business hours",
+    description: "Available for calls and messages",
   },
   {
     type: "GitHub",

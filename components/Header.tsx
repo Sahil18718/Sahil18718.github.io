@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
-import ClientThemeToggle from "./ClientThemeToggle"
-import ClientMobileMenu from "./ClientMobileMenu"
+import ClientThemeToggle from "./clients/ClientThemeToggle"
+import ClientMobileMenu from "./clients/ClientMobileMenu"
 import logo from "../public/Logo.png"
 
 const Header = () => {
