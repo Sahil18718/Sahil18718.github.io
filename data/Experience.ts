@@ -1,6 +1,6 @@
 export const experiences = [
   {
-    role: "Software Engineer",
+    role: "Frontend Engineer",
     company: "Bettrlabs Pvt Ltd",
     location: "Remote",
     duration: "Mar 2025 - Present",
