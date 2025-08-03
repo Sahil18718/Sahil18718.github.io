@@ -26,9 +26,7 @@ const HomeSection = () => {
           </div>
 
           <p className="text-sm sm:text-base md:text-lg text-gray-600 dark:text-gray-400 max-w-2xl leading-relaxed mx-auto sm:mx-0">
-            Experienced generative AI professional with 3+ years of expertise, eager to transition into software
-            engineering. Proficient coder, adaptable, and dedicated to learning. Track record of innovation, teamwork,
-            and exceeding expectations.
+            Experienced Generative AI Professional with 3+ years of hands-on expertise, now transitioning into Software Engineering. Proficient in coding, quick to adapt, and committed to continuous learning. Known for driving innovation, collaborating effectively in teams, and consistently exceeding expectations.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-4 items-center sm:items-start">

@@ -54,7 +54,7 @@ const Header = () => {
           {/* Mobile Menu Button & Theme Toggle */}
           <div className="md:hidden flex items-center space-x-2">
             <ClientThemeToggle />
-            <ClientMobileMenu>{/* Mobile menu content is handled in ClientMobileMenu */}</ClientMobileMenu>
+            <ClientMobileMenu children={undefined}>{/* Mobile menu content is handled in ClientMobileMenu */}</ClientMobileMenu>
           </div>
         </div>
       </div>

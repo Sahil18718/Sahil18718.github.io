@@ -17,16 +17,16 @@ const contactMethods = [
   },
   {
     type: "GitHub",
-    value: "github.com/Sahil18718",
+    value: "Sahil18718",
     icon: <Github className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />,
     link: "https://github.com/Sahil18718",
     description: "View my code repositories",
   },
   {
     type: "LinkedIn",
-    value: "linkedin.com/in/sahilmalviya18718",
+    value: "Sahil Malviya",
     icon: <Linkedin className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />,
-    link: "https://www.linkedin.com/in/sahilmalviya18718/",
+    link: "https://www.linkedin.com/in/sahil18718/",
     description: "Professional network",
   },
 ]
@@ -83,7 +83,7 @@ const Contact = () => {
 
         <div className="text-center mt-8 sm:mt-12 md:mt-16 pt-6 sm:pt-8 border-t border-gray-200 dark:border-gray-700">
           <p className="text-gray-500 dark:text-gray-400 text-xs sm:text-sm md:text-base">
-            © 2024 Sahil Malviya. Built with Next.js and Tailwind CSS.
+            © 2024 Sahil Malviya. Built with Next.js.
           </p>
         </div>
       </div>

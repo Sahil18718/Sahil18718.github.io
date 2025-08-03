@@ -11,25 +11,17 @@ const About = () => {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-4">About</h2>
               <div className="w-12 h-1 bg-[color:var(--primary)] dark:bg-[color:var(--primary-dark)]"></div>
             </div>
-
             <div className="space-y-4 text-gray-600 dark:text-gray-300 leading-relaxed text-sm sm:text-base md:text-lg">
               <p>
-                I'm a results-driven software engineer with over 3 years of experience in developing and maintaining
-                scalable web and mobile applications. My expertise spans across modern JavaScript frameworks, with
-                particular strength in React ecosystem and Node.js backend development.
+                I’m a product-focused software engineer with 3+ years of experience crafting scalable web and mobile applications across health tech, real-time communication, and SaaS domains. I specialize in the React and Node.js ecosystem, consistently building performant, modular, and future-ready solutions.
               </p>
               <p>
-                Throughout my career, I've successfully delivered platforms serving 100K+ users, consistently improving
-                application performance by up to 40%. I specialize in building high-performance applications with
-                real-time communication, secure authentication systems, and cloud-based solutions.
+                My recent work includes building a next-gen health platform with Lighthouse-perfect scores, implementing custom CMS, CI/CD, and modular UI systems. I’ve also delivered real-time apps like Chat Lynk, syncing 50K+ users seamlessly using WebSocket and Redux, while optimizing load times by over 40%.
               </p>
               <p>
-                I'm passionate about writing clean, maintainable code and staying current with industry best practices.
-                My approach combines technical excellence with strong problem-solving skills to deliver solutions that
-                drive business success.
+                I believe in clean architecture, efficient state management, and developer-first systems. Whether it’s scaling frontend performance, designing robust APIs, or architecting micro frontends, I bring a deep understanding of both product and engineering excellence to the table.
               </p>
             </div>
-
             <div className="pt-4">
               <a
                 href="https://drive.google.com/file/d/1iAqMXfsBQPrOkNgpgzhok94RpIugudPi/view?usp=sharing"
