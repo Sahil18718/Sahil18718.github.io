@@ -21,14 +21,17 @@ const HomeSection = () => {
               SAHIL MALVIYA
             </h1>
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-600 dark:text-gray-300 leading-tight">
-              Software Engineer
+              Frontend Engineer
             </h2>
           </div>
 
           <p className="text-sm sm:text-base md:text-lg text-gray-600 dark:text-gray-400 max-w-2xl leading-relaxed mx-auto sm:mx-0">
-            Experienced Generative AI Professional with 3+ years of hands-on expertise, now transitioning into Software Engineering. Proficient in coding, quick to adapt, and committed to continuous learning. Known for driving innovation, collaborating effectively in teams, and consistently exceeding expectations.
+            Full Stack Developer with 4+ years of experience building scalable web and mobile applications using
+            <span className="font-medium"> React, Next.js, React Native, and Node.js</span>. Proven track record in
+            boosting performance, delivering seamless user experiences, and deploying cloud-ready solutions on
+            <span className="font-medium"> AWS and Docker</span>. Passionate about clean code, accessibility, and
+            integrating <span className="font-medium">AI-driven features</span> to enhance product intelligence.
           </p>
-
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-4 items-center sm:items-start">
             <a
               href="#contact"

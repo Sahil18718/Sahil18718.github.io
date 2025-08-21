@@ -13,13 +13,22 @@ const About = () => {
             </div>
             <div className="space-y-4 text-gray-600 dark:text-gray-300 leading-relaxed text-sm sm:text-base md:text-lg">
               <p>
-                I’m a product-focused software engineer with 3+ years of experience crafting scalable web and mobile applications across health tech, real-time communication, and SaaS domains. I specialize in the React and Node.js ecosystem, consistently building performant, modular, and future-ready solutions.
+                I’m a results-oriented Full Stack Developer with 4+ years of experience delivering high-performance
+                web and mobile applications across SaaS, real-time communication, and community platforms. My
+                expertise lies in the <span className="font-medium">React, Next.js, React Native, and Node.js ecosystem</span>,
+                where I specialize in building performant, modular, and future-ready solutions.
               </p>
               <p>
-                My recent work includes building a next-gen health platform with Lighthouse-perfect scores, implementing custom CMS, CI/CD, and modular UI systems. I’ve also delivered real-time apps like Chat Lynk, syncing 50K+ users seamlessly using WebSocket and Redux, while optimizing load times by over 40%.
+                My recent work includes,
+                achieving <span className="font-medium">100/100 Lighthouse scores</span> in Performance, SEO, and Best Practices,
+                and implementing <span className="font-medium">custom CMS, CI/CD pipelines, and Storybook-driven design systems</span>.
+                I’ve also built real-time apps like <span className="font-medium">Chat Lynk</span>, syncing 50K+ users with
+                WebSocket and Redux while reducing load times by over 40%.
               </p>
               <p>
-                I believe in clean architecture, efficient state management, and developer-first systems. Whether it’s scaling frontend performance, designing robust APIs, or architecting micro frontends, I bring a deep understanding of both product and engineering excellence to the table.
+                I believe in <span className="font-medium">clean architecture, scalable backend systems, and developer-first workflows</span>.
+                Whether it’s optimizing frontend performance, designing robust APIs, or architecting micro frontends,
+                I bring a blend of product thinking and engineering excellence to every project.
               </p>
             </div>
             <div className="pt-4">
