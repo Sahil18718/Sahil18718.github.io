@@ -4,7 +4,7 @@ export const experiences = [
     company: "Bettrlabs Pvt Ltd",
     location: "Remote",
     duration: "Mar 2025 - Present",
-    type: "Contract",
+    type: "Permanent",
     responsibilities: [
       "Migrated frontend from React.js to Next.js, significantly improving performance and SEO scores",
       "Achieved perfect scores (100) on Performance, SEO, and Best Practices using Google Lighthouse",
@@ -19,7 +19,7 @@ export const experiences = [
     role: "Full Stack Developer",
     company: "Buzzart Software Pvt Ltd",
     location: "Remote",
-    duration: "Aug 2022 - Mar 2025",
+    duration: "Apr 2024 - Mar 2025",
     type: "Contract",
     responsibilities: [
       "Led development of Samaj App using React Native and Node.js, deployed on AWS",
@@ -30,19 +30,5 @@ export const experiences = [
       "Collaborated with remote cross-functional teams to deliver projects on tight deadlines",
     ],
     technologies: ["React Native", "React.js", "Next.js", "Node.js", "TypeScript", "Firebase", "AWS", "Redis","Tailwind CSS", "CI/CD"],
-  },
-  {
-    role: "Trainee",
-    company: "John Deere Pvt Ltd",
-    location: "Dewas",
-    duration: "Aug 2021 - Aug 2022",
-    type: "Full Time",
-    responsibilities: [
-      "Developed internal tools and dashboards using ReactJS and semantic HTML",
-      "Maintained company websites ensuring responsive design and fast load speeds",
-      "Collaborated with design and backend teams for feature integration",
-      "Implemented SEO and web performance best practices to boost discoverability",
-    ],
-    technologies: ["React.js", "Node.js", "JavaScript", "HTML5", "CSS3"],
   },
 ]

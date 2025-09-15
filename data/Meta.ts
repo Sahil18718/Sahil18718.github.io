@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sahil Malviya - Senior Software Engineer",
     description:
-      "Senior Software Engineer with 3+ years of experience in React, Next.js, Node.js, and full-stack development.",
+      "Senior Software Engineer with 1+ years of experience in React, Next.js, Node.js, and full-stack development.",
     type: "website",
   },
   viewport: "width=device-width, initial-scale=1",

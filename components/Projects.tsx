@@ -2,8 +2,8 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { projects, techFilters } from '@/data/Project';
 import ProjectModal from './clients/ProjectModal';
+import { projects, techFilters } from '@/data/Project';
 
 const Projects = () => {
   const [activeTag, setActiveTag] = useState("All");
