@@ -1,21 +1,22 @@
-import { lazy, Suspense } from "react";
-import "./App.css";
+"use client";
 
-const CharacterModel = lazy(() => import("./components/Character"));
-const MainContainer = lazy(() => import("./components/MainContainer"));
+import dynamic from "next/dynamic";
+
+const CharacterModel = dynamic(() => import("./components/Character"), {
+  ssr: false,
+});
+const MainContainer = dynamic(() => import("./components/MainContainer"), {
+  ssr: false,
+});
 import { LoadingProvider } from "./context/LoadingProvider";
 
 const App = () => {
   return (
     <>
       <LoadingProvider>
-        <Suspense>
-          <MainContainer>
-            <Suspense>
-              <CharacterModel />
-            </Suspense>
-          </MainContainer>
-        </Suspense>
+        <MainContainer>
+          <CharacterModel />
+        </MainContainer>
       </LoadingProvider>
     </>
   );

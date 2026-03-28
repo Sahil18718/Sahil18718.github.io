@@ -1,5 +1,4 @@
 import { MdArrowOutward, MdCopyright } from "react-icons/md";
-import "./styles/Contact.css";
 
 const Contact = () => {
   return (

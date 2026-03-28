@@ -4,7 +4,6 @@ import {
   FaLinkedinIn,
   FaYoutube,
 } from "react-icons/fa6";
-import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
 import { useEffect } from "react";
 import HoverLinks from "./HoverLinks";

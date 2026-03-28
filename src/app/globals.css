@@ -1,0 +1,14 @@
+@import "../index.css";
+@import "../App.css";
+
+@import "../components/styles/style.css";
+@import "../components/styles/About.css";
+@import "../components/styles/Career.css";
+@import "../components/styles/Contact.css";
+@import "../components/styles/Cursor.css";
+@import "../components/styles/Landing.css";
+@import "../components/styles/Loading.css";
+@import "../components/styles/Navbar.css";
+@import "../components/styles/SocialIcons.css";
+@import "../components/styles/WhatIDo.css";
+@import "../components/styles/Work.css";
