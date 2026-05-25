@@ -15,7 +15,7 @@ export const experiences = [
       "Designed UI/UX from scratch and established a consistent design language across the product",
       "Developed reusable component architecture for scalability and maintainability",
     ],
-    technologies: ["NextJS", "Redux", "Tailwind CSS", "CI/CD", "Cloudflare", "Storybook"],
+    technologies: ["NextJS", "React", "Redux", "Tailwind CSS", "CI/CD", "Cloudflare", "Storybook"],
   },
   {
     role: "Full Stack Developer",
