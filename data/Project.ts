@@ -4,7 +4,7 @@ export const projects = [
   {
     title: "Bettrlabs Platform",
     description:
-      "A next-generation health and wellness platform featuring a custom CMS, AI-powered insights, and top-tier SEO scores. Built with performance, scalability, and modularity in mind.",
+      "A next-generation health and wellness platform built from scratch with reusable UI architecture, AI-powered insights, and top-tier Lighthouse scores.",
     type: "Web Application",
     company: "Bettrlabs Pvt Ltd",
     techStack: [
@@ -21,8 +21,8 @@ export const projects = [
     live: "https://app.bettrlabs.com/",
     highlights: [
       "Migrated frontend from React.js to Next.js for enhanced performance, SEO, and maintainability",
-      "Separated admin and user panels for clearer structure and better role management",
-      "Implemented component-based architecture with isolated reusable modules",
+      "Built scalable and reusable component architecture for long-term maintainability",
+      "Designed UI/UX from scratch with a consistent product design language",
       "Integrated Redux for robust state management across the platform",
       "Achieved perfect scores (100) on Google Lighthouse for performance, SEO, and best practices",
       "Set up CI/CD pipelines with Cloudflare for smooth, automated deployments",
@@ -47,11 +47,10 @@ export const projects = [
     highlights: [
       "Entire chat module implemented using Redux for centralized and predictable state management",
       "Upgraded to latest React Native version for improved performance and stability",
-      "Significant performance improvement compared to previous builds with faster navigation and responsiveness",
+      "Implemented advanced caching to reduce app load time by 40%",
       "Built additional screens and features to enhance user experience and engagement",
-      "Reduced app load time by 40% through optimized caching strategies",
       "Real-time messaging and notifications powered by WebSocket",
-      "Efficiently handling 50K+ users with scalable Redux setup"
+      "Efficiently handling 10K+ users with scalable Redux setup"
     ]
   },
   {
@@ -75,36 +74,29 @@ export const projects = [
       "Integrated Redux for scalable state management across the app",
       "Implemented Firebase for authentication, real-time database, and login functionality",
       "Used JWT for secure user authentication",
+      "Integrated Razorpay for smooth and secure in-app payments",
       "Optimized performance with Redis caching for frequently accessed data"
     ]
   },
   {
-    title: "Samaj App Services",
+    title: "BE Development",
     description:
-      "The backend system for a matrimonial mobile application, built from scratch to support real-time features, secure authentication, payments, media handling, and push notifications. Designed with scalability, performance, and security in mind.",
-    type: "Mobile Application (Backend)",
-    company: "Buzzart Software",
+      "A scalable backend for a gaming platform designed to support secure, high-performance, real-time user interactions and event operations.",
+    type: "Backend Development",
     techStack: [
       "Node.js",
       "Express.js",
       "MongoDB",
-      "Razorpay",
-      "AWS",
-      "Redis",
-      "Cloudinary",
-      "Firebase",
-      "CI/CD"
+      "REST APIs"
     ],
     highlights: [
-      "Designed and developed the entire backend architecture using Node.js and Express.js",
-      "Created RESTful APIs for authentication, user management, matchmaking, chat, and media services",
-      "Designed and optimized MongoDB schema to support complex queries and user relationships",
-      "Implemented MongoDB aggregation pipelines for advanced user filtering and matching logic",
-      "Integrated Razorpay for secure and seamless in-app payments",
-      "Used Cloudinary for efficient media upload, storage, and delivery",
-      "Applied Redis for high-speed caching to boost response time and reduce DB load",
-      "Integrated Firebase Cloud Messaging (FCM) to trigger real-time push notifications for key events",
-      "Set up CI/CD pipelines for automated testing and deployment to AWS"
+      "Developed scalable backend architecture using Node.js and Express.js",
+      "Utilized MongoDB for efficient data management and storage",
+      "Implemented robust security measures to protect user data and platform integrity",
+      "Ensured high performance and reliability for large volumes of concurrent users",
+      "Integrated APIs for real-time communication and match updates",
+      "Designed backend to support seamless event organization and player interactions",
+      "Continuously optimized backend performance based on platform growth"
     ]
   },
   {
@@ -117,35 +109,30 @@ export const projects = [
     live: "https://diverso.in/",
     highlights: [
       "Built and deployed fast, responsive websites using Next.js and TypeScript",
-      "Achieved a 50% improvement in page load speed by optimizing image delivery and code splitting",
+      "Implemented responsive and SEO-optimized pages with reusable Tailwind CSS components",
       "Boosted lead conversions by 20% through better structure, CTA placement, and mobile-first design",
-      "Fully optimized for SEO using server-side rendering and semantic HTML",
-      "Designed clean, minimal UI aligned with branding for better user retention"
+      "Ensured consistent branding and fast load times across all devices",
+      "Built and maintained the official company website with a clean, modern implementation"
     ]
   },
   {
-    title: "COE",
+    title: "Mobile App",
     description:
-      "Built a modular and scalable Nx monorepo setup managing multiple applications, including web apps using Next.js and mobile apps using Expo. Focused on cross-platform integration, performance optimization, and real-device hardware interaction.",
-    type: "Web & Mobile Application",
+      "A React Native (Expo) project in an Nx monorepo focused on pixel-perfect UI, scalable feature delivery, and reliable component behavior.",
+    type: "Mobile Application",
     techStack: [
-      "Next.js",
-      "Expo",
       "React Native",
-      "TypeScript",
+      "Expo",
       "Nx Monorepo",
-      "Bluetooth",
-      "WiFi",
-      "Camera"
+      "TypeScript",
+      "Tailwind CSS",
+      "Unit Testing"
     ],
     highlights: [
-      "Set up and managed an Nx monorepo to streamline development across multiple apps",
-      "Developed both Next.js web apps and Expo-based mobile apps under a unified codebase",
-      "Connected real devices via Bluetooth and WiFi for hardware-level integrations",
-      "Implemented live photo capture feature using mobile camera APIs",
-      "Optimized code structure and shared logic across platforms for maintainability and scalability",
-      "Achieved 50% improvement in web app load speed and 20% increase in lead conversions",
-      "Optimized all web apps for SEO and performance using server-side rendering"
+      "Built pixel-perfect UI for multiple app screens from scratch using React Native and Tailwind CSS",
+      "Developed and maintained multiple React Native applications across different codebases",
+      "Delivered scalable features with consistent performance optimization",
+      "Wrote unit test cases to ensure component reliability and prevent regressions"
     ]
   }
 ]

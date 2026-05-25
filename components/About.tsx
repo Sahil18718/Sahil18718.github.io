@@ -13,22 +13,22 @@ const About = () => {
             </div>
             <div className="space-y-4 text-gray-600 dark:text-gray-300 leading-relaxed text-sm sm:text-base md:text-lg">
               <p>
-                I’m a results-oriented Full Stack Developer with 4+ years of experience delivering high-performance
-                web and mobile applications across SaaS, real-time communication, and community platforms. My
-                expertise lies in the <span className="font-medium">React, Next.js, React Native, and Node.js ecosystem</span>,
-                where I specialize in building performant, modular, and future-ready solutions.
+                I’m a Frontend Engineer with 2+ years of experience building scalable web and mobile applications
+                across product and service environments. My expertise lies in the
+                <span className="font-medium"> React, React Native, Expo, and Next.js ecosystem</span>, where I focus on
+                building performant, maintainable, and production-ready systems.
               </p>
               <p>
-                My recent work includes,
-                achieving <span className="font-medium">100/100 Lighthouse scores</span> in Performance, SEO, and Best Practices,
-                and implementing <span className="font-medium">custom CMS, CI/CD pipelines, and Storybook-driven design systems</span>.
-                I’ve also built real-time apps like <span className="font-medium">Chat Lynk</span>, syncing 50K+ users with
-                WebSocket and Redux while reducing load times by over 40%.
+                My recent work includes achieving <span className="font-medium">100/100 Lighthouse scores</span> in
+                Performance, SEO, and Best Practices, migrating React.js apps to Next.js, and implementing
+                <span className="font-medium"> CI/CD pipelines and reusable component architecture</span>. I’ve also built
+                real-time apps like <span className="font-medium">Chat Lynk</span>, synchronizing 10K+ users with WebSocket
+                and Redux while reducing load times by 40%.
               </p>
               <p>
-                I believe in <span className="font-medium">clean architecture, scalable backend systems, and developer-first workflows</span>.
-                Whether it’s optimizing frontend performance, designing robust APIs, or architecting micro frontends,
-                I bring a blend of product thinking and engineering excellence to every project.
+                I’m passionate about <span className="font-medium">clean code, performance optimization, and seamless user experiences</span>.
+                From UI/UX design and frontend architecture to backend integration, I bring product thinking and
+                engineering discipline to every project lifecycle.
               </p>
             </div>
             <div className="pt-4">

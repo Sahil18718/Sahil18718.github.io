@@ -1,15 +1,15 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Sahil Malviya - Senior Software Engineer",
+  title: "Sahil Malviya - Frontend Engineer",
   description:
-    "Senior Software Engineer with 3+ years of experience in React, Next.js, Node.js, and full-stack development. Specialized in scalable applications and performance optimization.",
-  keywords: "Senior Software Engineer, React, Next.js, Node.js, Full Stack Developer, JavaScript, TypeScript",
+    "Frontend Engineer with 2+ years of experience in React, React Native, Expo, and Next.js, focused on scalable applications, performance optimization, and seamless UX.",
+  keywords: "Frontend Engineer, React Native, ReactJS, NextJS, Expo, Node JS, TypeScript, Tailwind CSS",
   authors: [{ name: "Sahil Malviya" }],
   openGraph: {
-    title: "Sahil Malviya - Senior Software Engineer",
+    title: "Sahil Malviya - Frontend Engineer",
     description:
-      "Senior Software Engineer with 1+ years of experience in React, Next.js, Node.js, and full-stack development.",
+      "Frontend Engineer with 2+ years of experience in React, React Native, Expo, and Next.js.",
     type: "website",
   },
   viewport: "width=device-width, initial-scale=1",

@@ -26,11 +26,10 @@ const HomeSection = () => {
           </div>
 
           <p className="text-sm sm:text-base md:text-lg text-gray-600 dark:text-gray-400 max-w-2xl leading-relaxed mx-auto sm:mx-0">
-            Full Stack Developer with 4+ years of experience building scalable web and mobile applications using
-            <span className="font-medium"> React, Next.js, React Native, and Node.js</span>. Proven track record in
-            boosting performance, delivering seamless user experiences, and deploying cloud-ready solutions on
-            <span className="font-medium"> AWS and Docker</span>. Passionate about clean code, accessibility, and
-            integrating <span className="font-medium">AI-driven features</span> to enhance product intelligence.
+            Frontend Engineer with 2+ years of experience building scalable web and mobile applications using
+            <span className="font-medium"> React, React Native, Expo, and Next.js</span>. Proven track record of
+            improving performance by up to 40%, handling <span className="font-medium">10K+ users</span>, and delivering
+            production-ready systems with real-time features, caching, and CI/CD pipelines.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-4 items-center sm:items-start">
             <a

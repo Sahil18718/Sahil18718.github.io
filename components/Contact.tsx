@@ -1,4 +1,4 @@
-import { Mail, Phone, Github, Linkedin, Send } from "lucide-react"
+import { Mail, Phone, Github, Linkedin, Link, Send } from "lucide-react"
 
 const contactMethods = [
   {
@@ -26,8 +26,15 @@ const contactMethods = [
     type: "LinkedIn",
     value: "Sahil Malviya",
     icon: <Linkedin className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />,
-    link: "https://www.linkedin.com/in/sahil18718/",
+    link: "https://www.linkedin.com/in/sahilmalviya18718/",
     description: "Professional network",
+  },
+  {
+    type: "Portfolio",
+    value: "sahil18718.github.io",
+    icon: <Link className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />,
+    link: "https://sahil18718.github.io/",
+    description: "View my portfolio website",
   },
 ]
 
